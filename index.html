@@ -2,11 +2,28 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="style.css">  
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div style="display: flex; justify-content: flex-end; gap: 10px;">
+            <form action="imagesearch.html">
+                <input class="button" type="submit" value="Image Search">
+            </form>
+            <form action="advancedsearch.html">
+                <input class="button" type="submit" value="Advanced Search">
+            </form>
+        </div>
+        <div>
+            <h1>
+             <img style="width: 300px; height: auto;" src="GoogleLogo.png" alt="Google logo">
+            </h1>
+                <form style="display: flex; justify-content: center; flex-direction: column; gap: 10px;" action="https://www.google.com/search">
+                    <input class="input" type="text" name="q">
+                </form>
+         </div>
+         <div style="text-align: center; margin-top: 20px; gap: 50px;">
+            <input class="button" type="submit" value="Google Search">
+            <input class="button" type="submit" value="I'm feeling lucky">
+         </div>
     </body>
 </html>
