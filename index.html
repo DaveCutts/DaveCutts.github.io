@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css">  
     </head>
     <body>
-        <div style="display: flex; justify-content: flex-end; gap: 10px;">
+        <div class="container-right">
             <form action="imagesearch.html">
                 <input class="button" type="submit" value="Image Search">
             </form>
@@ -13,17 +13,16 @@
                 <input class="button" type="submit" value="Advanced Search">
             </form>
         </div>
-        <div>
-            <h1>
-             <img style="width: 300px; height: auto;" src="GoogleLogo.png" alt="Google logo">
-            </h1>
-                <form style="display: flex; justify-content: center; flex-direction: column; gap: 10px;" action="https://www.google.com/search">
+        <div class="container">
+             <img class="logo" src="GoogleLogo.png" alt="Google logo">
+                <form action="https://www.google.com/search" method="GET">
                     <input class="input" type="text" name="q">
+                    <div style="margin-top: 10px">
+                        <input class="button" type="submit" name="btnK" value="Google Search">
+                        <input class="button" type="submit" name="btnI" value="I'm feeling lucky">
+                     </div>
                 </form>
          </div>
-         <div style="text-align: center; margin-top: 20px; gap: 50px;">
-            <input class="button" type="submit" value="Google Search">
-            <input class="button" type="submit" value="I'm feeling lucky">
-         </div>
+
     </body>
 </html>
