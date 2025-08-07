@@ -5,19 +5,17 @@
         <link rel="stylesheet" href="style.css">  
     </head>
     <body>
-        <div class="container-right">
-            <form action="imagesearch.html">
-                <input class="button" type="submit" value="Image Search">
-            </form>
-            <form action="advancedsearch.html">
-                <input class="button" type="submit" value="Advanced Search">
-            </form>
+        <div class="container-top">
+            <a href="imagesearch.html" class="button">Image Search</a>
+            <a href="advancedsearch.html" class="button">Advanced Search</a> 
+        </div>
+            
         </div>
         <div class="container">
              <img class="logo" src="GoogleLogo.png" alt="Google logo">
                 <form action="https://www.google.com/search" method="GET">
                     <input class="input" type="text" name="q">
-                    <div style="margin-top: 10px">
+                    <div class="container-button">
                         <input class="button" type="submit" name="btnK" value="Google Search">
                         <input class="button" type="submit" name="btnI" value="I'm feeling lucky">
                      </div>

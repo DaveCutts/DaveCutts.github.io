@@ -6,12 +6,12 @@
     </head>
     <body>
         <div>
-            <Table style="width: 100%">
+            <Table class="table">
                 <tr>
                     <td>
                         <img class="logo-small" src="GoogleLogo.png" alt="Google Image logo">
                     </td>
-                    <td style="text-align: right;">
+                    <td class="container-top">
                         <a href="index.html" class="button">Back to Google Search</a>
                     </td>
                 </tr>
@@ -25,26 +25,34 @@
             </tr>
             <tr class="table-row">
                 <td class="container-left">all these words:</td>
-                <td class="container-right">
-                    <input class="input-small"; action="https://www.google.com/search" method="GET">
+                <td>
+                    <form class="container-right" action="https://www.google.com/search" method="GET">
+                        <input class="input-small" type="text" name="q">
+                    </form>
                 </td>
             </tr>
             <tr class="table-row">
                 <td class="container-left">this exact word or phrase:</td>
-                <td class="container-right">
-                    <input class="input-small"; action="https://www.google.com/search" method="GET">
+                <td>
+                    <form class="container-right" action="https://www.google.com/search" method="GET">
+                        <input class="input-small" type="text" name="as_epq">
+                    </form>
                 </td>
             </tr>
             <tr class="table-row">
                 <td class="container-left">any of these words:</td>
-                <td class="container-right">
-                    <input class="input-small"; action="https://www.google.com/search" method="GET">
+                <td>
+                    <form  class="container-right" action="https://www.google.com/search" method="GET">
+                        <input class="input-small" type="text" name="as_oq">
+                    </form>
                 </td>
             </tr>
             <tr class="table-row">
                 <td class="container-left">none of these words:</td>
-                <td class="container-right">
-                    <input class="input-small"; action="https://www.google.com/search" method="GET">
+                <td>
+                    <form class="container-right" action="https://www.google.com/search" method="GET">
+                        <input class="input-small" type="text" name="as_eq">
+                    </form>
                 </td>
             </tr>
         </Table>
