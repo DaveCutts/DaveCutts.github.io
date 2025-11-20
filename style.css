@@ -25,6 +25,14 @@ body {
   margin: 20px;
 }
 
+intro {
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  line-height: 1.6;
+  margin: 20px;
+}
+
 th {
     font-family: Arial, sans-serif;
     font-size: 16px;
